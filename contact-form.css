@@ -35,6 +35,9 @@ input{
   padding-left: 10px;
   margin-bottom: 20px; 
 }
+input:placeholder-shown{
+  border: solid 1px green;
+}
 
 
 textarea{
