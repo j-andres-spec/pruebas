@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="contact-form.css">
     <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="contact-form.css">
 
 </head>
 
 <body>
-
+    <div class="contenedor">
+        <a href='index.html'>Página principal</a>
+      </div>
+    
     <!-- formulario de contacto en html y css -->
 
     <div class="contact_form">
@@ -24,7 +27,7 @@
                     <label for="nombre" class="colocar_nombre">Nombre
                         <span class="obligatorio">*</span>
                     </label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" autofocus
                         placeholder="Escribe tu nombre">
                 </p>
 
@@ -40,12 +43,6 @@
                     <label for="telefone" class="colocar_telefono">Teléfono
                     </label>
                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                </p>
-
-                <p>
-                    <label for="website" class="colocar_website">Sitio web
-                    </label>
-                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
                 </p>
 
                 <p>
@@ -69,7 +66,7 @@
                 </button>
 
                 <p class="aviso">
-                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                    <span class="obligatorio"> * </span>Los campos son obligatorios.
                 </p>
 
             </form>
