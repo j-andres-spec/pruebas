@@ -24,7 +24,7 @@ a:link, a:visited, a:active {
   width: 460px;
   height: auto;
   margin: 50px auto;
-  border-radius: 10px;
+  border-radius: 30px;
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #fbfbfb;
@@ -120,7 +120,7 @@ h3 {
 
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #0e0e0e;
 }
 
